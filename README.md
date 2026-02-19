@@ -3,6 +3,7 @@
 > **生成模型**：Claude Opus 4.6 (anthropic/claude-opus-4-6)
 > **工具**: OpenClaw + OpenCode
 > **生成日期**：2026-02-17
+> **GitHub**：https://github.com/0xtresser/OpenClaw-Book
 
 ---
 
