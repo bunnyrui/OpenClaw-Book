@@ -107,7 +107,7 @@
 | 术语 | 英文 | 解释 |
 |------|------|------|
 | NDJSON | Newline-Delimited JSON | 每行一个 JSON 对象的文本格式 |
-| 节点 | Node | OpenClaw 中代表一个设备（手机、电脑等）的远程能力代理 |
+|| 节点 | Node | OpenClaw 中代表一个设备（手机、电脑等）的远程能力代理 |
 
 ## O-P
 
@@ -132,7 +132,7 @@
 | 沙箱 | Sandbox | 隔离的执行环境，限制程序的权限和资源访问 |
 | Session Key | Session Key | 唯一标识一个会话的字符串，编码了 Agent ID 和会话标识 |
 | SOUL | SOUL | OpenClaw 中 Agent 的系统提示和行为定义 |
-| 子代理 | Sub-agent | 由主 Agent 动态派生的临时 Agent，用于执行特定任务 |
+| 子 Agent | Sub-agent | 由主 Agent 动态派生的临时 Agent，用于执行特定任务 |
 | SSE | Server-Sent Events | 服务器向客户端单向推送事件的 HTTP 机制 |
 
 ## T
