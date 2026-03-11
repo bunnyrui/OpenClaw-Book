@@ -16,7 +16,7 @@
 - Motivation and target audience for this book
 - Overview of the OpenClaw project: a personal AI assistant running on your own devices
 - Book structure and reading guide
-- Source code version note (based on `v2026.2.x` branch)
+- Source code version note (based on `v2026.3.9`)
 - Prerequisites: TypeScript basics, Node.js runtime concepts, WebSocket protocol, basic OS knowledge
 
 ---
@@ -231,6 +231,13 @@
   - 9.4.2 Compaction flow (`src/agents/compaction.ts`)
   - 9.4.3 Pre-compaction Memory Flush
   - 9.4.4 Compaction retry and buffer reset
+- **[9.5 Context Engine Plugin System](EN/Ch09-System-Prompts-and-Context-Assembly/9.5-Context-Engine-Plugin-System.md)**
+  - 9.5.1 Why Context Engine
+  - 9.5.2 Plugin Interface (ContextEngine Interface)
+  - 9.5.3 Registration and Resolution Mechanism
+  - 9.5.4 LegacyContextEngine Backward Compatibility
+  - 9.5.5 Runtime Integration
+  - 9.5.6 Developing Custom Context Engines
 
 ### Chapter 10: Streaming and Block Replies
 
@@ -699,6 +706,20 @@
 - **[32.1 ACP Protocol Overview](EN/Ch32-ACP/32.1-ACP-Protocol-Overview.md)**
   - 32.1.1 `@agentclientprotocol/sdk` dependency
   - 32.1.2 `src/acp/` — OpenClaw's ACP implementation
+- **[32.2 ACP Session Management and Runtime](EN/Ch32-ACP/32.2-ACP-Session-Management-and-Runtime.md)**
+  - 32.2.1 Session Store (AcpSessionStore)
+  - 32.2.2 Session Key Resolution
+  - 32.2.3 Session Resume
+  - 32.2.4 Session Identity Tracking
+  - 32.2.5 Session Metadata Persistence
+  - 32.2.6 Runtime Cache and Eviction
+- **[32.3 ACP Control Plane and Integration Patterns](EN/Ch32-ACP/32.3-ACP-Control-Plane-and-Integration-Patterns.md)**
+  - 32.3.1 Control Plane Architecture
+  - 32.3.2 Provenance Tracking
+  - 32.3.3 Tool Streaming Enhancement
+  - 32.3.4 Persistent Bindings
+  - 32.3.5 Runtime Controls and Configuration
+  - 32.3.6 Error Handling and Security
 
 ### Chapter 33: TUI (Terminal User Interface)
 
@@ -706,6 +727,20 @@
   - 33.1.1 `@mariozechner/pi-tui` integration
   - 33.1.2 `src/tui/` — TUI adaptation layer
   - 33.1.3 Terminal rendering (`src/terminal/`)
+- **[33.2 TUI Interactive Mechanisms](EN/Ch33-TUI/33.2-TUI-Interactive-Mechanisms.md)**
+  - 33.2.1 Event Processing Pipeline
+  - 33.2.2 Gateway Event Handling
+  - 33.2.3 Command System Deep Dive
+  - 33.2.4 Session Operations
+  - 33.2.5 Local Shell Execution
+  - 33.2.6 Keyboard Shortcuts and Input Optimization
+- **[33.3 TUI Advanced Features](EN/Ch33-TUI/33.3-TUI-Advanced-Features.md)**
+  - 33.3.1 Text Sanitization and Safe Rendering
+  - 33.3.2 Markdown Rendering Pipeline
+  - 33.3.3 Tool Execution Visualization
+  - 33.3.4 Light/Dark Theme Adaptation
+  - 33.3.5 Fuzzy Search and Selector
+  - 33.3.6 Performance Optimization Strategies
 
 ### Chapter 34: Hands-On Project: Build Your Own AI Assistant
 
@@ -764,6 +799,7 @@
 
 | Part | Chapters | Estimated Word Count |
 |------|----------|---------------------|
+| Usage Guide | 3 chapters | ~24,000 words |
 | Part I: Global Overview | 2 chapters | ~8,000 words |
 | Part II: Gateway Control Plane | 4 chapters | ~16,000 words |
 | Part III: AI Agent Runtime | 4 chapters | ~16,000 words |
@@ -775,4 +811,4 @@
 | Part IX: Deployment & Operations | 2 chapters | ~6,000 words |
 | Part X: Advanced Topics & Practice | 4 chapters | ~12,000 words |
 | Appendices | 5 items | ~4,000 words |
-| **Total** | **34 chapters + 5 appendices** | **~120,000 words** |
+| **Total** | **37 chapters + 5 appendices** | **~144,000 words** |
